@@ -316,10 +316,6 @@ footer p {
 		height: 450px;
 	}
 	
-	.horizontalaccordion>ul>li:not (.bigscreen ) {
-		background: #f0f0f0;
-	}
-	
 	.horizontalaccordion>ul>li {
 		display: block;
 		overflow: hidden;
@@ -332,6 +328,7 @@ footer p {
 		min-width: 450px;
 		height: 450px;
 		border: 1px grey solid;
+		background: #f0f0f0;
 		border-radius: 10px 10px 0px 0px;
 	}
 	
