@@ -308,15 +308,18 @@ footer p {
 		background: -webkit-gradient(linear, left top, left bottom, from(#999999),
 			to(#cccccc));
 	}
+	
 	.horizontalaccordion>ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 		height: 450px;
 	}
+	
 	.horizontalaccordion>ul>li:not (.bigscreen ) {
 		background: #f0f0f0;
 	}
+	
 	.horizontalaccordion>ul>li {
 		display: block;
 		overflow: hidden;
@@ -331,6 +334,7 @@ footer p {
 		border: 1px grey solid;
 		border-radius: 10px 10px 0px 0px;
 	}
+	
 	.horizontalaccordion>ul>li>h3 {
 		display: block;
 		float: left;
