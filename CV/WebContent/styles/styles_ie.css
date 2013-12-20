@@ -6,10 +6,6 @@
 	padding: 0;
 }
 
-.bigscreen {
-	background: #b1b7b6 url(../images/trombine.png) bottom right no-repeat;
-}
-
 #figmoi_fr {
 	display: none;
 }
@@ -274,7 +270,7 @@ footer p {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	height: 300px;
+	height: 450px;
 }
 
 .horizontalaccordion>ul>li {
@@ -286,7 +282,7 @@ footer p {
 	list-style: none;
 	width: 47%;
 	min-width: 450px;
-	height: 400px;
+	height: 450px;
 	border: 1px grey solid;
 	border-radius: 10px 10px 0px 0px;
 	background: #f0f0f0;
@@ -326,19 +322,11 @@ footer p {
 .horizontalaccordion h4 {
 	font-size: 16px;
 }
-.article
-:not
- 
-(
-.horizontalaccordion
- 
-)
-{
-clear
-:
- 
-both
-;
 
+.article:not(.horizontalaccordion){
+	clear: both;
+}
 
+.bigscreen {
+	background: #b1b7b6 url(../images/trombine.png) bottom right no-repeat;
 }
